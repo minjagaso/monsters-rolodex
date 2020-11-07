@@ -14,7 +14,7 @@ class App extends Component {
         // Lexical binding scope using arrow keys can remove need for this
     }
     componentDidMount() {
-        fetch('http://jsonplaceholder.typicode.com/users')
+        fetch('//jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => this.setState({ monsters: users }))
     }
